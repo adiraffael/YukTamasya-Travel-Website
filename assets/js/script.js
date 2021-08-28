@@ -1,9 +1,5 @@
-let formBtn = document.querySelector('#login-btn');
-let loginForm = document.querySelector('.login-form-container');
-let formClose = document.querySelector('#form-close');
 let menu = document.querySelector('#menu-bar');
 let navbar = document.querySelector('.navbar');
-let videoBtn = document.querySelectorAll('.vid-btn');
 
 window.onscroll = () =>{
     menu.classList.remove('fa-times');
